@@ -166,21 +166,3 @@ border: 1px solid black;
   }
 }
 
-@media (max-width: 960px) {
-  .container {
-    margin: 0;
-    padding: 0;
-  }
-  header{
-  	height: 15px;
-  }
-  .other{
-    width: 20%;
-
-    margin: 0;
-    left: 0;
-
-  }
-
-
-}
