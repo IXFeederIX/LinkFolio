@@ -19,6 +19,7 @@ let el;
   {Youtube: "https://youtube.com/@omarriv08?si=KX7UDXJDgGBSO8cY"},
   {Instagram: "https://www.instagram.com/omarriv08_clips/"},
    {Tiktok: "https://www.tiktok.com/@omarriv08_clips/"},
+   {Discord: "https://discord.gg/BNcwHb4Y"}
 		] 
    el = item2;
     setTimeout(() => {
@@ -37,7 +38,8 @@ let item = [
    {Github: "https://github.com/IXFeederIX/"},
   {Youtube: "https://youtube.com/@omarriv08?si=KX7UDXJDgGBSO8cY"},
   {Instagram: "https://www.instagram.com/omarriv08_memes/"},
-  {TikTok: "https://www.tiktok.com/@omarriv08_memes/"}
+  {TikTok: "https://www.tiktok.com/@omarriv08_memes/"},
+  {Discord: "https://discord.gg/BNcwHb4Y"}
 		] 
     body.style.backgroundImage = "";
     img.src = "pic.jpg";
