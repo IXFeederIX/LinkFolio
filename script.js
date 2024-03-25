@@ -19,7 +19,7 @@ let el;
   {Youtube: "https://youtube.com/@omarriv08?si=KX7UDXJDgGBSO8cY"},
   {Instagram: "https://www.instagram.com/omarriv08_clips/"},
    {Tiktok: "https://www.tiktok.com/@omarriv08_clips/"},
-   {Discord: "https://discord.gg/BNcwHb4Y"}
+   {Discord: "https://discord.gg/J5wC5asjaA"}
 		] 
    el = item2;
     setTimeout(() => {
@@ -39,7 +39,7 @@ let item = [
   {Youtube: "https://youtube.com/@omarriv08?si=KX7UDXJDgGBSO8cY"},
   {Instagram: "https://www.instagram.com/omarriv08_memes/"},
   {TikTok: "https://www.tiktok.com/@omarriv08_memes/"},
-  {Discord: "https://discord.gg/BNcwHb4Y"}
+  {Discord: "https://discord.gg/J5wC5asjaA"}
 		] 
     body.style.backgroundImage = "";
     img.src = "pic.jpg";
