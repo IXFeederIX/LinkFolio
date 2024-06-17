@@ -38,6 +38,7 @@ height: 50px;
     border: 1px solid lightgray;
   margin: 0 0 20px 0;
   background-color: white;
+  padding: 20px;
 }
 
 h1 {
@@ -56,6 +57,11 @@ span {
 margin: 0;
 padding: 0;
   font-size: 1.5em;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+  padding: 20px;
+
+
+  margin: 5px;
 }
 
 ul {
@@ -63,10 +69,12 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  right: 5%;
+
+margin: 0;
+padding: 0;
+align-items: center;
+border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+border-radius: 12px;
 
 }
 .fade-in-image { animation: fadeIn 5s; }
@@ -87,8 +95,9 @@ ul > li {
 
   text-decoration: none;
   list-style-type: none;
-  font-size: 40px;
-margin: 20px;
+  font-size: 36px;
+margin: 14px;
+
 }
  i.fa-facebook {
     color: #3b5998; /* Facebook color */
@@ -144,7 +153,7 @@ z-index: 9999999;
   position: absolute;
 left: 0%;
 border: 1px solid whitesmoke;
-border-radius: 10px;
+
 color: whitesmoke;
   animation: float 2s ease-in-out infinite;
 
