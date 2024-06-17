@@ -97,7 +97,9 @@ margin: 20px;
   i.fa-github {
     color: #24292e; /* GitHub color */
   }
-
+ i.fa-twitter {
+    color: lightblue; /* GitHub color */
+  }
   i.fa-youtube {
     color: #ff0000; /* YouTube color */
   }
