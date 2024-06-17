@@ -19,8 +19,9 @@ let el;
   {Youtube: "https://youtube.com/@omarriv08?si=KX7UDXJDgGBSO8cY"},
   {Instagram: "https://www.instagram.com/omarriv08_clips/"},
    {Tiktok: "https://www.tiktok.com/@omarriv08_clips/"},
-   {Discord: "https://discord.gg/J5wC5asjaA"}
-		] 
+   {Discord: "https://discord.gg/J5wC5asjaA"},
+	{Twitter: "https://twitter.com/omarriv08"}	
+ ] 
    el = item2;
     setTimeout(() => {
       body.style.backgroundImage = "url('tree.jpg')";
@@ -39,7 +40,8 @@ let item = [
   {Youtube: "https://youtube.com/@omarriv08?si=KX7UDXJDgGBSO8cY"},
   {Instagram: "https://www.instagram.com/omarriv08_memes/"},
   {TikTok: "https://www.tiktok.com/@omarriv08_memes/"},
-  {Discord: "https://discord.gg/J5wC5asjaA"}
+  {Discord: "https://discord.gg/J5wC5asjaA"},
+	{Twitter: "https://twitter.com/omarriv08"}
 		] 
     body.style.backgroundImage = "";
     img.src = "pic.jpg";
