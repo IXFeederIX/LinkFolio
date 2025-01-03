@@ -17,7 +17,7 @@ let el;
 		 {Facebook: "https://www.facebook.com/0marriv08clips/"},
    {Github: "https://github.com/IXFeederIX/"},
   {Youtube: "https://youtube.com/@omarriv08?si=KX7UDXJDgGBSO8cY"},
-  {Instagram: "https://www.instagram.com/omarriv08_clips/"},
+  {Instagram: "https://www.instagram.com/omarriv_clips/"},
    {Tiktok: "https://www.tiktok.com/@omarriv08_clips/"},
    {Discord: "https://discord.gg/J5wC5asjaA"},
 	{Twitter: "https://twitter.com/omarriv08"}	
