@@ -177,3 +177,73 @@ border: 1px solid black;
   }
 }
 
+.links {
+  display: flex;
+  position: absolute;
+  z-index: 9999;
+  margin: 5px;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px rgba(255, 0, 0, 1); /* Slight red shadow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover */
+}
+
+.links:hover {
+  animation: blinkShadow 1s infinite alternate; /* Apply blinking animation on hover */
+}
+
+@keyframes blinkShadow {
+  from {
+    box-shadow: 2px 2px 2px rgba(255, 0, 0, 1);
+  }
+  to {
+    box-shadow: 5px 5px 5px rgba(255, 0, 0, 0.5); /* Lighter shadow for the "blink" */
+  }
+}
+
+.betfury-container{
+  display: flex;
+  flex-direction: row;
+
+}
+.info-container{
+  display: none;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.info-container > a {
+  outline: none;
+  background-color: transparent;
+  box-shadow: none;
+  color: black;
+  border: 2px solid transparent; /* Initial transparent border */
+  transition: border-color 0.3s ease; /* Smooth transition */
+  margin: 2px;
+}
+
+.info-container > a:hover {
+  animation: borderBlink 1s infinite alternate; /* Apply animation on hover */
+}
+
+@keyframes borderBlink {
+  from {
+    border-color: rgba(0, 0, 0, 0); /* Transparent border */
+  }
+  to {
+    border-color: rgba(0, 0, 0, 1); /* Solid black border */
+  }
+}
+.betfury-pic{
+display: flex;
+align-items: center;
+height: 75%;
+
+}
+
+

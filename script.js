@@ -58,3 +58,19 @@ let item = [
 
 
 });
+
+const links = document.querySelector('.links'); // Select your 'links' element
+const infoContainer = document.querySelector('.info-container'); // Select your info container
+
+if (links && infoContainer) { // Check if both elements exist
+  links.addEventListener('mouseover', (e) => {
+    infoContainer.style.display = 'flex';
+  });
+
+  links.addEventListener('mouseout', (e) => {
+    infoContainer.style.display = 'none'; // Hide on mouseout
+  });
+
+} else {
+  console.error("One or both of the required elements were not found.");
+}
