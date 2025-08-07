@@ -74,3 +74,4 @@ if (links && infoContainer) { // Check if both elements exist
 } else {
   console.error("One or both of the required elements were not found.");
 }
+
